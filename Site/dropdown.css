@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+  .sidebar ul li:hover{
+    background-color: #555;
+  }
+  
+.sidebar ul li ul.dropdown li{
+    display: block;
+}
+
+.sidebar ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.sidebar ul li a:hover{
+    background-color: aliceblue;
+}
+
+.sidebar li:hover ul.dropdown{
+    display: block;
+}

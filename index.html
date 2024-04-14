@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movement blocks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Didact+Gothic&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=".//Site/dropdown.css">
+    <link rel="stylesheet" href="./Site/footer.css">
+</head>
+<body>
+
+    <!-- 3 columns -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#wro">WRO</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+            </ul>
+        </nav>
+      </header>
+    
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Movement</h1>
+            <div>
+                <p>
+                    The movement blocks move 2 motors at the same time.
+                    <!-- <p>➡️ Observation: </p>
+                    <p>Degrees is recommened. It is the amount of rotation in the wheel.</p>
+                    <p>You connect the motors to your wheels</p> -->
+                    <p>(In my case, I connect  Motors B and C)</p>
+                </p>
+            </div>
+            <div class="side-side">
+                <img src="../Pink-img/Pink-arrows.png" height="150" alt="movement-arrows">
+                <img src="../Pink-img/Pink-blocks.png" height="150" alt="movement-blocks">
+            </div>
+             
+        </div>
+            
+            <div class="side-bar">
+                <div class="menu">
+                    <!-- <div class="logo">
+                        <img src="../img/ANS-logo.png" height="70" alt="ANS-logo">
+                    </div> -->
+                    <div class="item">
+                        <div class="movement-logo"><a href="#movement-home"><img src="../Pink-img/Movement-wheel.png" height="90" alt=""></a></div>
+
+                        <a href="#movement-home">Part 1</a>
+                        <ul class="sub-menu">
+                            <a href="#below-header" class="sub-item"> Introduction</a>
+                            <a href="forward-backward" class="sub-item">Forward and Backward</a>
+                            <a href="#pivot-turn" class="sub-item">Pivot Turn</a>
+                            <a href="#spin-turn" class="sub-item">Spin Turn</a>
+                            <a href="#movement-key-takeaway" class="sub-item">Key-takeaways</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The introduction section -->
+        <div class="three-columns grid-container-height" id="below-header">
+            <div class="grid-item">
+                <div class="flex-item">
+                    <img src="../Pink-img/pink-movement-robot.png" alt="movement-motor">
+                    <p>We are using 2 of these large motors to make up the wheels.</p>
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item">
+                    <img src="https://media.giphy.com/media/wgyVCTBBExUOTnBP03/giphy.gif" alt="gif-rotation">
+                    <p>Look at the white pointy lego. Notice that the wheel rotates a full circle.</p>
+                    <p></p>
+                    <p>These 2 codes are the same:</p>
+                </div>
+                <div class="flex-item">
+                    <img src="../Pink-img/Pink-2blocks.png" alt="movement-block">
+                </div>
+            </div>
+                
+        </div>
+
+        <div class="grid-container" id="forward-backward">
+
+            <div class="grid-item">
+                <div class="flex-item">
+                    <h2>Forward and Backward</h2>
+                    <img src="../Pink-img/Pink-ford_back.jpg" alt="movement-img">
+                </div>
+                <div class="flex-item">
+                    <img src="../Pink-img/Pink-rotations of 2 wheels.png" alt="movement-img">
+                </div>
+                <div class="paragraph">
+                    <p>You use <strong>Positive(+)</strong> and <strong>Negative(-)</strong> numbers.</p>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-item">
+                    <h2>Wheels Move Forward</h2>
+                    <img src="https://media.giphy.com/media/eMo5xk6GGgqyFU8RZT/giphy.gif" alt="iphone-gif">
+                </div>
+                <div class="flex-item">
+                    <img src="../Pink-img/1-Pink-Forward.png" alt="movement-img">
+                </div>
+                <div class="paragraph">
+                    <p>The robot moves 450 degress <strong>FORWARD</strong> at the speed of 50%.</p>
+                    <p>➡️ Notice that BOTH speed are <strong>positives</strong></p>
+                </div>
+            </div>
+            
+            
+            <div class="grid-item" id="backward">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Wheels Move Backward</h2>
+                        <img src="https://media.giphy.com/media/RPZnqHT2f3URvTxp0E/giphy.gif" alt="iphone-gif">
+                    </div>
+                    <div class="flex-item">
+                        <img src="../Pink-img/2Pink-backward.png" alt="movement-img">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot moves 450 degress <strong>BACKWARD</strong> at the speed of -50%.</p>
+                        <p>➡️ Notice that BOTH speed are <strong>negatives</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="forth-back" class="grid-item together pink-background">
+                <div class="flex-grid flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Moving Forward and Backward</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://media.giphy.com/media/g4sYljaGjT4XwvxeCZ/giphy.gif" alt="movement-gif">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="../Pink-img/10.3-Pink-Ford-Back.png" alt="">
+
+                        <p>Notice that you can change the degrees and speed. As long as they are the same numbers. For example: [-75]speed for both</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item" id="pivot-turn">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Pivot Turn</h2>
+                        <img src="../Pink-img/Pink-PivotTurn-img.jpg" alt="iphone-gif">
+                    </div>
+                    <div class="paragraph">
+                        <p>➡️ Only one wheel moves. The other one doesn't move.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Turn Right:</h2>
+                        <img src="https://media.giphy.com/media/FSQo5gSZUhFLt7d5rP/giphy.gif" alt="movement-gif">
+                    </div>
+                    <div class="flex-item">
+                        <img src="../Pink-img/3Pink-R.png" alt="movement-img">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot turns 450 degress to the RIGHT at the speed of 50%</p>
+                        <p>➡️ Only motor B moves, turning toward Motor C</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Turn Left:</h2>
+                        <img src="https://media.giphy.com/media/79r2zPH4wDStujuZPf/giphy.gif" alt="iphone-gif">
+                    </div>
+                    <div class="flex-item">
+                        <img src="../Pink-img/5Pink-L450.png" alt="movement-img">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot turns 750 degress to the RIGHT at the speed of 50%</p>
+                        <p>➡️ Only motor C moves, turning toward Motor B</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spin Turn -->
+            <div class="grid-item" id="spin-turn">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Spin Turn</h2>
+                        <img src="../Pink-img/Pink-spinTurn-img.jpg" alt="turn-img">
+                    </div>
+                    <div class="paragraph">
+                        <p>Both wheels move in opposite direction at the same speed. (Positive and negative)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Turn Right:</h2>
+                        <img src="https://media.giphy.com/media/QXORklzGUfF8jyuT1h/giphy.gif" alt="turn-img">
+                    </div>
+                    <div class="flex-item">
+                        <img src="../Pink-img/10.1-Pink-SpinTurn-Right.png" alt="movement-img">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot turns 450 degress to the RIGHT at the speed of -50%</p>
+                        <p>➡️ Notice that [left_speed] is positive. [right_speed] is negative</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Turn Left:</h2>
+                        <img src="https://media.giphy.com/media/c9tSqW2XZ14xRY9MWj/giphy.gif" alt="iphone-gif">
+                    </div>
+                    <div class="flex-item">
+                        <img src="../Pink-img/10.2-Pink-SpinTurn-Left.png" alt="movement-img">
+                    </div>
+                    <div class="paragraph">
+                        <p>The robot turns 450 degress to the LEFT at the speed of -50%</p>
+                        <p>➡️ Notice that [left_speed] is negative, [right_speed] is positive</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-observation">
+                <div class="label">
+                    <h3>Key-Takeaways</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> Recommended: use degrees.</li>
+                        <li>-> You can change how much the robot moves: using the degrees/rotations.</li>
+                        <li>-> Degrees: how much the robot moves.</li>
+                        <li>-> Speed: how fast/slow and in what direction the robot moves.</li>
+
+                        <li>--------</li>
+                        <li><strong>Observations:</strong></li>
+                        <li>-> Notice that spin turn turns more than pivot turn.
+                            <li>-> It is because the pivot turn only move 1 wheel</li>
+                            <li>-> while spin turn: both wheels moves.</li>
+                            <li>-> That's why, you should always add more degrees to pivot turn!</li>
+                        </li>
+                        <li>-> Please keep in mind that: the turns of my robot and yours will be different. So the degrees will be not be the same.</li>
+                    </ul>
+                </p>
+            </div>
+
+            </div>
+            
+    </div>
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <button id="home" class="home-icon"> <img src="../img/icons8-home.svg" height="30" alt=""></button>
+        <button id="motors" class="blue">Next: Motors <img src="../img/icons8-arrow-full-white.png" height="30" alt=""></button>
+    </div>
+
+
+          <!-- Footer -->
+        <div class="footer-container">
+            <!-- <div class="logo-name">
+                <h3>ANS Robotics</h3>
+                <h3>---</h3>
+            </div> -->
+            
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#wro">WRO</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+</body>
+</html>

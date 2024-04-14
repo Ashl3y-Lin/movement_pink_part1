@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movement blocks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Didact+Gothic&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="movement3.css">
+    <link rel="stylesheet" href="quizSection.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <!-- 3 columns -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#wro">WRO</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+            </ul>
+        </nav>
+      </header>
+    
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Movement</h1>
+            <div>
+                <p>
+                    The movement blocks move 2 motors at the same time.
+                    <!-- <p>➡️ Observation: </p>
+                    <p>Degrees is recommened. It is the amount of rotation in the wheel.</p>
+                    <p>You connect the motors to your wheels</p> -->
+                    <p>(In my case, I connect  Motors B and C)</p>
+                </p>
+            </div>
+            <div class="side-side">
+                <img src="../Pink-img/Pink-arrows.png" height="150" alt="movement-arrows">
+                <img src="../Pink-img/Pink-blocks.png" height="150" alt="movement-blocks">
+            </div>
+             
+        </div>
+    
+    <div class="grid-container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="../img/ANS-logo.png" height="70" alt="ANS-logo">
+            </div>
+            
+            <!-- Sidebar content goes here -->
+            <ul>
+               <li><a href="#movement-home"><img src="../Pink-img/Movement-wheel.png" height="100" alt="movement-logo"></a></li>
+              <li><a href="#forward-backward">Forward & Backward</a></li>
+              <li><a href="#turns"> Turnings</a></li>
+              <li><a href="#movement-challenge1">Challenge 1</a></li>
+              <li><a href="#movement-challenge2">Challenge 2</a></li>
+              <li><a href="#movement-challenge3">Challenge 3</a></li>
+              <li><a href="#movement-observation">Observations</a></li>
+              <li><a href="#movement-quiz">Quiz</a></li>
+              <li><a href="#challengeYou">Challenge for you</a></li>
+            </ul>
+        </div>
+
+
+            <!-- Challenge -->
+            <div id="movement-challenge1" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 1: Move in square</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="../Pink-img/Pink-square-challenge1.gif" alt="movement-gif">
+                            
+                            <p>Notice that the robot does not turn accurately.(Don't worry! we'll fix that later)</p>
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="../Pink-img/10.4-Square-Challenge1-img.png" alt="pink-img">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div id="movement-challenge2" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 2: Park the robot (just like parking the car)</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="../Pink-img/Pink-Park-Chall2.gif" alt="movement-gif">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="../Pink-img/10.5-Park Car-Chall2-img.png" alt="pink-img">
+
+                        <p>This is pretty much how you park the car :D Try out new ways of parking the car!</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div id="movement-challenge3" class="grid-item together pink-background"> <!--flex-container-->
+                <div class="flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Challenge 3: Move like the staircase</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="../Pink-img/Pink-Stair-Challenge3.gif" alt="movement-gif">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="../Pink-img/Pink-Stair-Chal3-POV2.gif" alt="pink-img">
+
+                        <img src="../Pink-img/10.7-Pink-Stairway.png" alt="movement-img">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-observation">
+                <div class="label">
+                    <h3>Observations</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> Please keep in mind that: the turns of my robot and yours will be different. So the degrees will be not be the same.</li>
+                        <li>-> Recommended: use degrees.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- Quiz Sction -->
+            <div class="grid-item together pink-background" id="movement-quiz">
+                <!-- Quiz section -->
+                <div class="app">
+                    <h1>Time for a quiz!</h1>
+                    <div class="quiz">
+                        <h2 id="question"> Question goes here</h2>
+                        <div id="answer-buttons">
+                            <button class="btn"> Answer 1</button>
+                            <button class="btn"> Answer 2</button>
+                            <button class="btn"> Answer 3</button>
+                            <button class="btn"> Answer 4</button>
+                        </div>
+                        <button id="next-button">Next</button>
+                    </div>
+                </div>
+            </div>
+
+<!-- Challenge for you section -->
+            <div class="grid-item together pink-background" id="challengeYou">
+                <div class="flex-grid flex-container flex-item challenge-container">
+                    <div class="letter-both">
+                        <h2>Challenge for you</h2>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../Pink-img/Pink-ParkChallYou-question.gif" alt="movement-gif">
+                        <p>Hint:</p>
+                        <p>The speed I used is 40% for the turn and 50% for moving backward</p>
+                    </div>
+
+                    <div class="flex-item">
+                        <div id="hide-box">
+                            <img src="../Pink-img/10.6-ParkCar-challYou.png" alt="movement-img">
+                            <p>Notice that you can use pivot turn and then move it backward.</p>
+                            <p>If you found another way, that's awesome!</p>
+                        </div>
+                        <button class="unhide-button" onclick="ShowAnswer()">Show Answer</button>
+                        
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <button id="home" class="home-icon"> <img src="../img/icons8-home.svg" height="30" alt=""></button>
+        <button id="motors" class="blue">Next: Motors <img src="../img/icons8-arrow-full-white.png" height="30" alt=""></button>
+    </div>
+
+
+          <!-- Footer -->
+        <div class="footer-container">
+            <!-- <div class="logo-name">
+                <h3>ANS Robotics</h3>
+                <h3>---</h3>
+            </div> -->
+            
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#wro">WRO</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+</body>
+</html>
